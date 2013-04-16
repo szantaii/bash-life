@@ -27,6 +27,7 @@ This project is licensed under GNU General Public License Version 3+. For the fu
 | Distrbution | Package name    |
 | ----------- | --------------- |
 | Arch Linux  | `ncurses`       |
+| Debian      | `ncurses-bin`   |
 | Fedora      | `ncurses`       |
 | openSUSE    | `ncurses-utils` |
 | Ubuntu      | `ncurses-bin`   |
