@@ -8,6 +8,8 @@
  3. Prerequisites
  4. Exit status
  5. How to use
+  * Get bash-life
+  * Start bash-life
  6. Further development
 
 ***
@@ -53,11 +55,33 @@ This project is licensed under GNU General Public License Version 3+. For the fu
 
 ## 5. How to use
 
+### Get bash-life
+
+First you have to acquire bash-life:
+
+```bash
+git clone https://github.com/szantaii/bash-life.git
+```
+
+Enter bash-life's directory:
+
+```bash
+cd bash-life
+```
+
+### Start bash-life
+
+Use the Bash interpreter to start the game:
+
+```bash
+bash bash-life.sh
+```
+
 `TODO`
 
 ## 6. Further development
 
- * Check for prerequisites, add exit status `1`, on missing programs, that are necessary for bash-life to run. (high priority)
+ * Check for prerequisites, add exit status `1` on missing programs, that are necessary for bash-life to run. (high priority)
  * Add licensing information to each file. (high priority)
  * Add code comments. (normal priority)
  * Fill section '5. How to use' in README. (normal priority)
