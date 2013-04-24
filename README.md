@@ -83,7 +83,7 @@ bash bash-life.sh
 ## 6. Further development
 
  * Check for prerequisites, add exit status `1` on missing programs, that are necessary for bash-life to run. (high priority)
- * Check for minimum terminal size, and exit with status `2`, if the requirement is not met.
+ * Check for minimum terminal size, and exit with status `2`, if the requirement is not met. (high priority)
  * Add licensing information to each file. (high priority)
  * Add code comments. (normal priority)
  * Fill section '5. How to use' in README. (normal priority)
