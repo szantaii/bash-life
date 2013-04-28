@@ -51,8 +51,8 @@ This project is licensed under GNU General Public License Version 3+. For the fu
 ## 4. Exit status
 
  * `0` bash-life exited successfully.
- * `1` Missing necessary programs to run bash-gorillas. (not implemented yet)
- * `2` Too small terminal size (width×height). (not implemented yet)
+ * `1` Missing necessary program (`tput`) to run bash-life.
+ * `2` Too small terminal size (18×6).
 
 ## 5. How to use
 
@@ -82,8 +82,6 @@ bash bash-life.sh
 
 ## 6. Further development
 
- * Check for prerequisites, add exit status `1` on missing programs, that are necessary for bash-life to run. (high priority)
- * Check for minimum terminal size, and exit with status `2`, if the requirement is not met. (high priority)
  * Add licensing information to each file. (high priority)
  * Add code comments. (normal priority)
  * Fill section '5. How to use' in README. (normal priority)

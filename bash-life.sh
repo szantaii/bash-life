@@ -13,6 +13,9 @@ dirname=$(dirname "$0")
 
 window_title="bash-life"
 
+min_term_width=18
+min_term_height=6
+
 term_width=$(tput cols)
 term_height=$(tput lines)
 
@@ -35,6 +38,7 @@ neighbor_count=""
 declare -A grid
 declare -A temp_grid
 
+source "${dirname}/check-prerequisites.sh"
 source "${dirname}/create-buffer.sh"
 source "${dirname}/refresh-screen.sh"
 source "${dirname}/init.sh"
@@ -50,6 +54,8 @@ source "${dirname}/clear-help.sh"
 source "${dirname}/evolve.sh"
 source "${dirname}/read-input.sh"
 source "${dirname}/quit.sh"
+
+check_prerequisites
 
 main_loop
 
