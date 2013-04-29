@@ -53,7 +53,7 @@ This project is licensed under GNU General Public License Version 3+. For the fu
 
  * `0` bash-life exited successfully.
  * `1` Missing necessary program (`tput`) to run bash-life.
- * `2` Too small terminal size (18×6).
+ * `2` Too small terminal size (80×6).
 
 ## 5. How to use
 
