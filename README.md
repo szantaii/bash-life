@@ -10,6 +10,7 @@
  5. How to use
   * Get bash-life
   * Start bash-life
+  * Setup and start simulation
  6. Further development
 
 ***
@@ -51,8 +52,8 @@ This project is licensed under GNU General Public License Version 3+. For the fu
 ## 4. Exit status
 
  * `0` bash-life exited successfully.
- * `1` Missing necessary programs to run bash-gorillas. (not implemented yet)
- * `2` Too small terminal size (width×height). (not implemented yet)
+ * `1` Missing necessary program (`tput`) to run bash-life.
+ * `2` Too small terminal size (80×6).
 
 ## 5. How to use
 
@@ -78,13 +79,39 @@ Use the Bash interpreter to start the game:
 bash bash-life.sh
 ```
 
+### Setup and start simulation
+
+```text
+                                   bash-life                                    
++------------------------------------------------------------------------------+
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                        o                                                     |
+|                         o                                                    |
+|                       ooo                                                    |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
++------------------------------------------------------------------------------+
+Navigate: arrow keys, Toggle cell: spacebar                    Start: s, Quit: q
+```
+
 `TODO`
 
 ## 6. Further development
 
- * Check for prerequisites, add exit status `1` on missing programs, that are necessary for bash-life to run. (high priority)
- * Check for minimum terminal size, and exit with status `2`, if the requirement is not met.
- * Add licensing information to each file. (high priority)
- * Add code comments. (normal priority)
+ * Add code comments. (high priority)
  * Fill section '5. How to use' in README. (normal priority)
 
