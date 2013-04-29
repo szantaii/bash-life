@@ -1,5 +1,22 @@
 #!/bin/bash
 
+# bash-life is a Game of Life simulator written in Bash.
+# Copyright (C) 2013 Istvan Szantai <szantaii at sidenote dot hu>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program (LICENSE).
+# If not, see <http://www.gnu.org/licenses/>.
+
 printf "bash-life\nCopyright (C) Istvan Szantai \
 \x3c\x73\x7a\x61\x6e\x74\x61\x69\x69\x40\x73\x69\
 \x64\x65\x6e\x6f\x74\x65\x2e\x68\x75\x3e 2013\n"
