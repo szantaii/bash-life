@@ -78,11 +78,39 @@ Use the Bash interpreter to start the game:
 bash bash-life.sh
 ```
 
+### Setup and start simulation
+
+```text
+                                   bash-life                                    
++------------------------------------------------------------------------------+
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                        o                                                     |
+|                         o                                                    |
+|                       ooo                                                    |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                                                                              |
++------------------------------------------------------------------------------+
+Navigate: arrow keys, Toggle cell: spacebar                    Start: s, Quit: q
+```
+
 `TODO`
 
 ## 6. Further development
 
- * Add licensing information to each file. (high priority)
- * Add code comments. (normal priority)
+ * Add code comments. (high priority)
  * Fill section '5. How to use' in README. (normal priority)
 
