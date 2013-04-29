@@ -10,6 +10,7 @@
  5. How to use
   * Get bash-life
   * Start bash-life
+  * Setup and start simulation
  6. Further development
 
 ***
