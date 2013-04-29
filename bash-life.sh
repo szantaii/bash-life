@@ -28,8 +28,6 @@ IFS=""
 
 dirname=$(dirname "$0")
 
-window_title="bash-life"
-
 min_term_width=80
 min_term_height=6
 
