@@ -30,7 +30,7 @@ dirname=$(dirname "$0")
 
 window_title="bash-life"
 
-min_term_width=18
+min_term_width=40
 min_term_height=6
 
 term_width=$(tput cols)
