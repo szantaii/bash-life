@@ -17,12 +17,15 @@
 # along with this program (LICENSE).
 # If not, see <http://www.gnu.org/licenses/>.
 
+# Clears the whole help text from the line under the grid
 clear_help()
 {
+	# Place cursor directly under the bottom frame
 	cursor_x=0
 	cursor_y=$((grid_height + 3))
 	place_cursor
 	
+	# Print space characters to the whole line
 	for ((i=0; i < term_width; i++))
 	do
 		printf " " >> ${buffer}

@@ -17,6 +17,8 @@
 # along with this program (LICENSE).
 # If not, see <http://www.gnu.org/licenses/>.
 
+# Functions in this file print help text under the frame
+
 print_help1()
 {
 	local help_text1="Navigate: arrow keys, Toggle cell: spacebar"

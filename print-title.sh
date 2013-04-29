@@ -17,12 +17,18 @@
 # along with this program (LICENSE).
 # If not, see <http://www.gnu.org/licenses/>.
 
+# Prints the title to the center of the first line of the screen
 print_title()
 {
+	local title_text="bash-life"
+	
+	# Position cursor to the center
+	# of the first line of the screen
 	cursor_x=$(($((term_width - ${#window_title})) / 2))
 	cursor_y=0
 	place_cursor
 	
-	printf "${window_title}" >> $buffer
+	# Print $title_text to the buffer
+	printf "${title_text}" >> $buffer
 }
 

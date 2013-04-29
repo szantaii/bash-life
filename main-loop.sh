@@ -19,17 +19,21 @@
 
 main_loop()
 {
+	# Initialize variables, create screen buffer
 	init
 	
+	# Print title, frame and help to the screen
 	print_title
 	print_frame
 	print_help1
 	
+	# Place cursor to the top left corner of the grid
 	cursor_x=${grid_xmin}
 	cursor_y=${grid_ymin}
 	place_cursor
 	refresh_screen
 	
+	# Main loop
 	while true
 	do
 		read_input
