@@ -22,7 +22,7 @@
 print_help1()
 {
 	local help_text1="Navigate: arrow keys, Toggle cell: spacebar"
-	local help_text2="Start: s, Quit: q"
+	local help_text2="Start: 's', Quit: 'q'"
 	
 	cursor_x=0
 	cursor_y=$((grid_height + 3))
@@ -39,7 +39,7 @@ print_help1()
 
 print_help2()
 {
-	local help_text="Quit: q"
+	local help_text="Quit: 'q'"
 	
 	cursor_x=$((term_width - ${#help_text}))
 	cursor_y=$((grid_height + 3))
