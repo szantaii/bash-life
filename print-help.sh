@@ -19,7 +19,7 @@
 
 print_help1()
 {
-	local help_text="Start: s, Quit: q"
+	local help_text="Toggle cell: spacebar, Start: s, Quit: q"
 	
 	cursor_x=$((term_width - ${#help_text}))
 	cursor_y=$((grid_height + 3))
