@@ -24,7 +24,7 @@ print_title()
 	
 	# Position cursor to the center
 	# of the first line of the screen
-	cursor_x=$(($((term_width - ${#window_title})) / 2))
+	cursor_x=$(($((term_width - ${#title_text})) / 2))
 	cursor_y=0
 	place_cursor
 	
